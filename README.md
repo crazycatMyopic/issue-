@@ -5,6 +5,13 @@ Issue linked with the following Stackover flow question:
 
 [SO Question](https://stackoverflow.com/questions/76087213/spring-aop-with-spring-webflux-after-authentication?noredirect=1#comment134190061_76087213)
 
+curl to get the error
+
+```
+curl -L "http://localhost:8080/login" -H "Authorization: Bearer ghfjhgf"
+```
+
+-------------
 Perview:
 
 I have a Enabled Spring AOP for my logging purpose and use webflux for the API entrypoint,
